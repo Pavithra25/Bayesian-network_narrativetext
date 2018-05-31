@@ -97,6 +97,6 @@ cpd_s = TabularCPD(variable='S', variable_card=2,
                    evidence=['I'],
                    evidence_card=[2])
 
-1234model.add_cpds(cpd_d, cpd_i, cpd_g, cpd_l, cpd_s)
+model.add_cpds(cpd_d, cpd_i, cpd_g, cpd_l, cpd_s)
 
 model.check_model()
